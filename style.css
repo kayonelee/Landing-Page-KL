@@ -8,11 +8,6 @@ header {
     font-weight: 900;
     color: #F9FAF8;
 }
-.topbar2    {
-    list-style-type: none;
-    font-size: 24px;
-    color: #f9faf8;
-}
 .nav    {
     display: flex;
     justify-content: space-between;
@@ -27,18 +22,17 @@ footer {
     padding: 2em 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 /* ------------------------------------------------- */
 .leftcolumn {
     display: flex;
     flex-direction: column;
-    gap: 15px; 
+    /* gap: 15px;  */
 }
 .rightcolumn  {
     flex-shrink: 0;
     width: 50%;
 }
-ul{
+ul  {
     list-style: outside none;
     display: flex;
     justify-content: flex-end;
@@ -47,26 +41,32 @@ ul{
 }
 .navy2 {
     padding: 1em;
-    padding-left: 120px;
-    padding-right: 120px;
+    /* padding-left: 120px;
+    padding-right: 120px; */
     display: flex;
-    justify-content: center;
+    justify-content: row;
     align-items: center;
-    gap: 2em;
+    /* gap: 2em; */
+    /* gap: 80px; */
 }
-
-.navy2 .left  {
+ .leftcolumn  {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    /* gap: 15px; */
 }
-
+.right {
+    padding-left: 50px;
+}
 .hero48 {
     color: #F9FAF8;
     font-weight: 900;
     font-size: 48px;
 }
-
+.hero18  {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
 button {
     padding: 7px 1em;
     width: 120px;
@@ -74,29 +74,21 @@ button {
     border-radius: 8px;
     color: #E5E7EB;
 }
-
 .navy2 button {
     border: none;
-}
-.hero18  {
-    font-size: 18px;
-    color: #E5E7EB;
-    text-decoration: none;
 }
 .image {
     background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 400px;
+    height: 250px;
+    width: 500px;
 }
 .some   {
     background-color: white;
 }
-
-
-main {
+main    {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,7 +96,6 @@ main {
     margin-top: 3em;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 main h2 {
     font-size: 36px;
     font-weight: 900;
@@ -127,13 +118,11 @@ main h2 {
     align-items: center;
     gap: .5em;
 }
-
 .this   {
     color:rgb(96, 91, 91)
 }
-
 /* bottom section of page----------------------------------------- */
-.quote {
+.quote  {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,14 +130,12 @@ main h2 {
     padding: 7em 13em;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .quote p {
     align-self: flex-end;
     font-weight: bolder;
     font-size: 24px;
     color: #1f2937;
 }
-
 .quote em {
     font-size: 36px;
     font-weight: 100;
@@ -172,10 +159,9 @@ main h2 {
     border-radius: 15px;
 }
 .bluecontainer button {
-    border: 2px solid #FFF;
+    border: 2px solid white;
 }
-
 strong {
     font-size: 24px;
-    color: #FFF;
+    color: white;
 }
